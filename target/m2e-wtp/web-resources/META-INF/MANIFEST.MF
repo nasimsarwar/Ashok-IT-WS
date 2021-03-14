@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: nasim
+Build-Jdk: 15.0.1
+Implementation-Title: Sample Java Spring web service Using AWS CodeStar
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.aws.codestar.projecttemplates
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/HelloWorld
+Created-By: Maven Integration for Eclipse
+
