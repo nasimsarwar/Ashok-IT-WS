@@ -34,7 +34,7 @@ public class SwaggerConfig {
 	  List<VendorExtension> vendorExtensions = new ArrayList<>();
 	  ApiInfo apiInfo = new ApiInfo(
 				"Ashok-IT RESTful Web Service documentation",
-				"This pages documents Photo app RESTful Web Service endpoints", 
+				"This pages documents  Ashok-IT RESTful Web Service endpoints", 
 				"1.0",
 				"http://www.ashokit.in/service.html", 
 				contact, 
