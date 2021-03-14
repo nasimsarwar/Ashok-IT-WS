@@ -27,16 +27,16 @@ public class SwaggerConfig {
 
 	  Contact contact = new Contact(
 	            "Nasim Sarwar",
-	            "http://www.tyremandi.com", 
-	            "nasim@appsdeveloperblog.com"
+	            "http://www.ashokit.com", 
+	            "nasim@ashokit.com"
 	    );
 	
 	  List<VendorExtension> vendorExtensions = new ArrayList<>();
 	  ApiInfo apiInfo = new ApiInfo(
-				"Photo app RESTful Web Service documentation",
+				"Ashok-IT RESTful Web Service documentation",
 				"This pages documents Photo app RESTful Web Service endpoints", 
 				"1.0",
-				"http://www.appsdeveloperblog.com/service.html", 
+				"http://www.ashokit.in/service.html", 
 				contact, 
 				"Apache 2.0",
 				"http://www.apache.org/licenses/LICENSE-2.0", 
