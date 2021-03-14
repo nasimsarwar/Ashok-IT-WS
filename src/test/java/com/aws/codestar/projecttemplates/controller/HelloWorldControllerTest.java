@@ -1,5 +1,6 @@
 package com.aws.codestar.projecttemplates.controller;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -43,10 +44,11 @@ class HelloWorldControllerTest {
 
     /**
      * Basic test to verify the result obtained when calling {@link HelloWorldController#helloWorldGet} successfully.
+     * @throws JSONException 
      */
     @Test
     @DisplayName("Basic test for GET request")
-    void testGetRequest() {
+    void testGetRequest() throws JSONException {
         ResponseEntity responseEntity = controller.helloWorldGet(INPUT_NAME);
 
         // Verify the response obtained matches the values we expect.
@@ -57,10 +59,11 @@ class HelloWorldControllerTest {
 
     /**
      * Basic test to verify the result obtained when calling {@link HelloWorldController#helloWorldPost} successfully.
+     * @throws JSONException 
      */
     @Test
     @DisplayName("Basic test for POST request")
-    void testPostRequest() {
+    void testPostRequest() throws JSONException {
         ResponseEntity responseEntity = controller.helloWorldPost(INPUT_NAME);
 
         // Verify the response obtained matches the values we expect.
